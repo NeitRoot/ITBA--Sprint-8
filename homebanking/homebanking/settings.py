@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'cliente',
     'sucursal',
-    'tarjeta'
+    'tarjeta',
+    'empleado',
+    'prestamo'
 ]
 
 MIDDLEWARE = [

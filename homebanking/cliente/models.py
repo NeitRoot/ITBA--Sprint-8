@@ -14,7 +14,7 @@ class Cliente(models.Model):
     card = models.ForeignKey('tarjeta.Tarjetas', models.DO_NOTHING)
 
     class Meta:
-        ordering = ['customer_dni']
+        ordering = ['id']
         verbose_name = "Cliente"
 
     def __str__(self) -> str:
