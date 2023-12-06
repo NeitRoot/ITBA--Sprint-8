@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'sucursal',
     'tarjeta',
     'empleado',
-    'prestamo'
+    'prestamo',
+    'cuenta'
 ]
 
 MIDDLEWARE = [
