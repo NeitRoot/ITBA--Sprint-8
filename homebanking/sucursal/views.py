@@ -18,3 +18,5 @@ class SucursalPrestamos(APIView):
         serializer = PrestamoSerializer(prestamos_sucursal, many=True)
         
         return Response(serializer.data, status=status.HTTP_200_OK)
+    
+    #REVER

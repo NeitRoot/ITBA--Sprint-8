@@ -3,7 +3,7 @@ from .models import Sucursal
 
 
 class SucursalSerializer(serializers.ModelSerializer):
-    cliente =  serializers.ReadOnlyField(source = 'cliente.name')
+    cliente = serializers.StringRelatedField(source='cliente.customer_name')
     class Meta:
         model = Sucursal
         fields = '__all__'
