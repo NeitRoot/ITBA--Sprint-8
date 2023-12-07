@@ -1,9 +1,9 @@
 from rest_framework import permissions, status
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from clientes.models import Cliente
-from prestamos.models import Prestamo
-from prestamos.serializers import PrestamoSerializer
+from cliente.models import Cliente
+from prestamo.models import Prestamo
+from prestamo.serializers import PrestamoSerializer
 
 #obtener los clientes asociados a una sucursal específica y luego los préstamos relacionados con esos clientes
 class SucursalPrestamos(APIView):
