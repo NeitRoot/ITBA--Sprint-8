@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'prestamo',
     'cuenta',
     'direccion',
-    'contacto'
+    
 ]
 
 MIDDLEWARE = [
