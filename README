@@ -1,1 +1,23 @@
+Grupo N°1
 
+Detalles:
+En back:
+-No hay autenticación
+En front:
+-No hay inicio de sesión
+-No se pueden editar los datos del cliente
+-No se puede trabajar con prestamos
+-No se puede trabajar como empleado
+-No se pueden ver las sucursales
+Recibimos ayuda de distintos grupos
+
+Comentario:
+El front está hecho con next.js (sprint 3) y muestra los datos del cliente 1 (Moses Greer). Su cuenta y su tarjeta asociada al banco.
+ La conexión de frontend y backend se solucionó con instalando django-cors-headers y se realializó con éxito. Al no haber autenticación 
+hubo que comentar algunos segmentos de código en django para poder acceder a la información ya que requería autenticación para verse datos 
+como por ejemplo de tarjetas. Igualmente cada cliente tiene su usuario y un empleado tiene usuario con los permisos correspondientes.
+
+Integrantes: 
+Vazquez, Ana Jazmin 
+Musi, Juan Cruz
+Vizcarra Savino, Natalia Anahí
